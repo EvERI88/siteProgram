@@ -1,0 +1,39 @@
+@import "_header";
+@import "_history";
+@import "_yrok";
+@import "_contacts";
+@import "_slider";
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,italic,900,900italic);
+body {
+	margin: 0;
+}
+.allsize {
+	display: flex;
+	justify-content: center;
+}
+
+/* .menu__paragraph {
+	animation: identifier 3s ease-in-out infinite;
+}
+@keyframes identifier {
+	0% {
+		color: #03bdbd;
+		text-decoration-color: #03bdbd;
+	}
+	25% {
+		color: purple;
+		text-decoration-color: purple;
+	}
+	50% {
+		color: rgb(108, 167, 0);
+		text-decoration-color: rgb(108, 167, 0);
+	}
+	75% {
+		color: rgb(0, 201, 151);
+		text-decoration-color: rgb(0, 201, 151);
+	}
+	100% {
+		color: #03bdbd;
+		text-decoration-color: #03bdbd;
+	}
+} */

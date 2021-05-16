@@ -1,0 +1,196 @@
+.header {
+	span {
+		color: rgb(3, 189, 189);
+	}
+
+	&__top {
+		background-color: gray;
+		height: 100px;
+		max-width: 100%;
+		color: white;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
+		padding: 0 30px;
+		font-family: Roboto;
+		font-family: Roboto;
+		font-size: 20px;
+	}
+
+	&__logo {
+		width: 20%;
+	}
+
+	&__contacts {
+		width: 40%;
+		cursor: default;
+	}
+
+	&__menu {
+		display: flex;
+		justify-content: flex-end;
+		width: 40%;
+	}
+
+	.header {
+		&__main {
+			padding-top: 50px;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		&__box {
+			max-width: 300px;
+			width: 100%;
+			height: 300px;
+			border-radius: 0px;
+			background: #ffffff;
+			box-shadow: 15px 15px 49px #d9d9d9, -15px -15px 49px #ffffff;
+			margin: 20px;
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			&:hover {
+				background: rgb(165, 165, 165);
+				transition: all 0.5s;
+				.btn {
+					background-color: #03bdbd;
+					color: white;
+				}
+				.contats {
+					color: white;
+				}
+			}
+		}
+	}
+	.main {
+		&__group {
+			height: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+	}
+
+	&__mainkurs {
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		max-width: 1200px;
+		padding-top: 100px;
+	}
+
+	&__container {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		max-width: 33.333%;
+		border-radius: 0px;
+		background: #ffffff;
+		padding: 20px;
+		margin: 20px;
+		box-shadow: 15px 15px 49px #d9d9d9, -15px -15px 49px #ffffff;
+		&:nth-child(2) {
+			padding: 0 20px;
+		}
+		&:hover {
+			background: rgb(165, 165, 165);
+			color: white;
+			transition: all 0.5s;
+			.contats {
+				transition: all 0.5s;
+				color: white;
+			}
+		}
+	}
+
+	&__kurs {
+	}
+	&__kursing {
+		font-family: Roboto;
+		font-size: 20px;
+		text-align: center;
+	}
+}
+.contats {
+}
+.btnkurs {
+	&:hover {
+		background-color: purple;
+		transition: 0.5s;
+		color: white;
+	}
+}
+
+.logo1 {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-size: 60px;
+	cursor: default;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+
+	&__paragraph {
+		list-style: none;
+		padding-left: 30px;
+		&:hover {
+			transition: all 0.5s;
+			text-decoration: underline;
+			text-decoration-color: cadetblue;
+			cursor: pointer;
+			&__paragraph {
+				background: #000;
+			}
+		}
+	}
+}
+.contats {
+	font-family: Roboto;
+	text-align: center;
+	color: rgb(97, 97, 97);
+	cursor: default;
+}
+.btn {
+	width: 80%;
+	height: 50px;
+	font-family: Roboto;
+	border: none;
+	cursor: pointer;
+	font-size: 15px;
+}
+.from {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.m2 {
+	text-decoration-color: purple;
+}
+.formkurs {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.red {
+	width: 150%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: gray;
+	color: white;
+	&:hover {
+		background: rgb(119, 0, 0);
+		color: white;
+		transition: 0.5s;
+		.contats {
+			color: white;
+		}
+	}
+}

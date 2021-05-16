@@ -1,0 +1,33 @@
+.header {
+	a {
+		font-size: 30px;
+		cursor: pointer;
+		padding-top: 20px;
+		&:hover {
+			transition: 0.5s;
+			color: rgb(0, 201, 150);
+		}
+	}
+	&__contactts {
+		display: flex;
+		justify-content: center;
+		padding: 40px;
+	}
+
+	&__soc {
+		padding: 40px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__imgs {
+		max-width: 300px;
+		max-height: 300px;
+	}
+}
+.contats {
+}
+.imgg {
+	max-width: 200px;
+	max-height: 200px;
+}

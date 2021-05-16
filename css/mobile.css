@@ -1,0 +1,5 @@
+@media (max-device-width: 1024px) and (min-device-width: 320px) {
+	body {
+		background: rgb(197, 197, 197);
+	}
+}
