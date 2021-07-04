@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+sitemap:https://everi88.github.io/siteProgram/index.html
+sitemap:https://everi88.github.io/siteProgram/html/Kurs.html
+sitemap:https://everi88.github.io/siteProgram/html/History.html
+sitemap:https://everi88.github.io/siteProgram/html/Yrok.html
+sitemap:https://everi88.github.io/siteProgram/html/Contats.html
